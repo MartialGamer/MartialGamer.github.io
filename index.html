@@ -9,14 +9,26 @@
     <link rel="stylesheet" href="css/w3.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
     <style>
         html, body, h1, h2, h3, h4, h5, h6 {
             font-family: "Roboto", sans-serif;
         }
     </style>
 </head>
-<body class="w3-light-grey">
 
+<body class="w3-light-grey">
+<!-- NavBar Stuff -->
+<script>
+    $(function() {
+        $("#navigation").load("siteadditions/_layout.html");
+    });
+</script>
+<div id="navigation">
+    
+</div>
     <!-- Page Container -->
     <div class="w3-content w3-margin-top" style="max-width: 1400px;">
 
@@ -153,7 +165,7 @@
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>University of Nebraska Omaha</b></h5>
                         <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - Current</h6>
-                        <p onmouseover="sayHi()">Bachelor Degree</p><br>
+                        <p>Bachelor Degree</p><br>
                     </div>
                 </div>
                 
